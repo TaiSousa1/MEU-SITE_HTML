@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <title>hospedagem</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/favicon-32x32.png" alt="logo">
+        <h1>
+            Lar Aqui
+        </h1>
+        <nav>
+            <ul>
+                <h2>
+                    <li>
+                        <a href="hospedagens.html">Todas as Hospedagens</a>
+                    </li>
+                    <ul>   
+                        <li>
+                            <a href="casa.html">Casa</a>
+                        </li>
+                        <li>
+                            <a href="hotel.html">Hotel</a>
+                        </li>
+                    </ul>
+                    <li>
+                        <a href="adm.html">Login na área de administração</a>
+                    </li>
+                    <ul>
+                        <li>
+                            <a href="usuário.html">Cadastro de usuário</a>
+                        </li>
+                    </ul>
+                    <li>
+                        <a href="autor.html">Autor</a>
+                    </li>
+                </h2>
+            </ul>   
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Cadastro de Hospedagem</h1>
+            <form>
+                <p>Digite o nome da hospedagem:</p>
+                <input type="text" placeholder="Nome">    
+                <p>Digite o endereço da hospedagem:</p>
+                <input type="text" placeholder="endereço">
+                <p>Digite o valor da hospedagem/dia:</p>
+                <input type="text" placeholder="Preço por dia">
+                <br>
+                <p>Tipo de hospedagem:</p>
+                <select>
+                    <option>Casa</option>
+                    <option>Hotel</option>
+                </select>
+                <br><br>
+                <button>Cadastrar Hospedagem</button>
+            </form>
+        </div>
+        <section>
+            <h1>
+                Cadastrados
+            </h1>
+            <table border="">
+                <tr>
+                    <th colspan="">Nome da hospedagem</th>
+                    <th>Endereço</th>
+                    <th>Valor</th>
+                    <th>Tipo</th>
+                    <th>Alterações</th>
+                </tr>
+                <tr>
+                    <td>Copacabana Palace</td>
+                    <td>Rua alameda 190</td>
+                    <td>R$ 500</td>
+                    <td>Hotel</td>
+                    <td><button>Editar</button> <button>Apagar</button></td>
+                </tr>
+                <tr>
+                    <td>Águas do Nordeste</td>
+                    <td>Rua chico andré 28</td>
+                    <td>R$ 100</td>
+                    <td>Casa</td>
+                    <td><button>Editar</button> <button>Apagar</button></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h2>
+            <a href="autor.html">Autor</a>
+        </h2>
+    </footer>
+    
+    
+</body>
+</html>
